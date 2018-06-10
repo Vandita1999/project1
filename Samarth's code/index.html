@@ -4,6 +4,8 @@
 
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
@@ -22,9 +24,9 @@
 
               <div class="col m5">
 
-                    <div class="icon"></div>
-                    <div class="icon"></div>
-                    <div class="icon"></div>
+                    <a id="tophead">EN</a>
+                    <a id="tophead">STORES</a>
+                    <a id="tophead">HELP</a>
 
               </div>
 
@@ -38,16 +40,44 @@
               <div class="col m5">
 
                     <!-- the class right has been added to add the property of float since this side the icons come from right to left not left right which is default-->
-                    <div class="icon right"></div>
-                    <div class="icon right"></div>
-                    <div class="icon right"></div>
-                    <div class="icon right"></div>
+                    <a id="icons" href="#" class="fa fa-facebook right"></a>
+                    <a id="icons" href="#" class="fa fa-twitter right"></a>
+                    <a id="icons" href="#" class="fa fa-youtube right"></a>
+                    <a id="icons" href="#" class="fa fa-instagram right"></a>
 
               </div>
 
           </div>
 
     </div>
+    <div class="navbar no-mobile">
+    <div class="row container" id="newnav">
+    	<div class="col m5">
+    		<a id="subhead">FOR HIM</a>
+    		<a id="subhead">FOR HER</a>
+    		<a id="subhead"  class="dropdown">STRAPS</a>
+
+    	</div>
+
+    	<div class="col m1">
+
+                    <!-- the colum size of 4 changes in width with the changing size of webpage hence we apply a class to put the icon in the middlle simple way to solve this problem as we dont need the default left placement-->
+                    <div class="icon center"></div>
+
+              </div>
+
+    	<div class="col m6">
+    		<a id="subhead" class="right"><i class="material-icons">add_shopping_cart</i></a>
+    		<a id="subhead" class="right"><i class="material-icons">perm_identity</i></a>
+    		<a id="subhead"  class="right">LOOKBOOK</a>
+    		<a id="subhead" class="right">ABOUT US</a>
+    		
+
+    	</div>
+
+
+    </div>
+    </div> 
 
   </body>
 </html>
