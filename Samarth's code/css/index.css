@@ -21,12 +21,36 @@ body{
 
 /* When you simply just add two div's in front of one another they are place one above another hence used inline-block here to display in a line*/
 
-.icon{
-    background: red;
-    height: 35px;
-    width:35px;
+#subhead{
+    height: 55px;
+    width:55px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 65px;
+    font-size: 12px;
+    color:#37474f;
+    font-family: Arial;
+}
+
+#tophead{
+    color:white;
+    height: 25px;
+    width:45px;
     display: inline-block;
     margin-right: 10px;
+    font-size: 10px;
+
+
+}
+#icons{
+    color:white;
+    height: 55px;
+    width:25px;
+    display: inline-block;
+    margin-right:2px;
+    margin-top:12px;
+    font-size: 14px;
+
 }
 
 /* Pushes the icon to right hence the alignment starts from right to left*/
