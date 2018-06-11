@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+     <!-- Linking all the files for materialize-->
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <!-- Linking my local css for my css code-->
+    <link rel="stylesheet" href="css/index.css"/>
+
+  <body>
+
+      <!-- Here is the navbar not using row for this because I dont want the gutter space on the left and right of this this means it would be of the full width-->
+      <div class="top-bar no-mobile">
+
+          <!-- Now i add a row because the content has gutter inside the navbar-->
+          <!-- Mobile no class has been added to read my class which removes this in the mobile view-->
+          <div class="row container">
+
+              <div class="col m5">
+
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+
+              </div>
+
+              <div class="col m2">
+
+                    <!-- the colum size of 4 changes in width with the changing size of webpage hence we apply a class to put the icon in the middlle simple way to solve this problem as we dont need the default left placement-->
+                    <div class="icon center"></div>
+
+              </div>
+
+              <div class="col m5">
+
+                    <!-- the class right has been added to add the property of float since this side the icons come from right to left not left right which is default-->
+                    <div class="icon right"></div>
+                    <div class="icon right"></div>
+                    <div class="icon right"></div>
+                    <div class="icon right"></div>
+
+              </div>
+
+          </div>
+
+    </div>
+
+  </body>
+</html>
