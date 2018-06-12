@@ -10,6 +10,9 @@ body{
     width: 80%;
 }
 
+
+/* just redifined one attribute from materialize files to reduce gutter space */
+
 .top-bar{
     position: relative;
     top: 0px;
@@ -32,16 +35,16 @@ body{
     font-family: Arial;
 }
 
-#tophead{
+.vandita{
     color:white;
-    height: 25px;
+    height: 12px;
     width:45px;
+    background-color: black;
     display: inline-block;
     margin-right: 10px;
     font-size: 10px;
-
-
 }
+
 #icons{
     color:white;
     height: 55px;
