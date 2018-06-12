@@ -7,6 +7,7 @@ body {
   margin: 0px;
   font-family: 'segoe ui';
 }
+
 .container{
     width:80%;
 }
@@ -81,7 +82,7 @@ input{
     border:1px solid grey;
 }
 .heading{
-    color:darkblue;
+    color:#1a237e ;
     font-size: 42px;
 }
 .paragraph{
@@ -122,8 +123,41 @@ input{
 
     /* Reduced gutter space even more for mobiles*/
     .container{
-        width: 95%;
+        width: 90%;
     }
+    .heading{
+    color:#1a237e ;
+    font-size: 30px;
+}
+.button{
+
+    background-color: white;
+    opacity:0.7;
+    border: 1px solid blue;
+    border-radius: 5px; 
+    color: darkblue;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+button{
+    background-color: white;
+    opacity:0.7; /* Green */
+    border: 1px solid blue;
+    border-radius: 5px; 
+    color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.paragraph{
+    color:grey;
+    font-size: 18px;
+}
 
 
 }
